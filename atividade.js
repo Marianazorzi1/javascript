@@ -7,4 +7,4 @@
 
 var num = 25 
 
-console.log(typeof num)
+console.log(typeof num);
