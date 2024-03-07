@@ -37,17 +37,17 @@
 // Chame o método exibirInformacoes para cada instância e exiba o
 // resultado no console.
 
-class Imovél {
-    constructor(quartos){
-        this.quartos = quartos
-    }
-    constructor(tipo){
-        this.tipo = tipo
-    }
+// class Imovél {
+//     constructor(quartos){
+//         this.quartos = quartos
+//     }
+//     constructor(tipo){
+//         this.tipo = tipo
+//     }
 
-    constructor (endereço){
-        this.endereço = endereço
-    }
+//     constructor (endereço){
+//         this.endereço = endereço
+//     }
     
 
-}
+// }
