@@ -3,12 +3,15 @@
 // Com auxílio de um switch deve ser computado e mostrado o resultado da
 // operação.
 
-import rl from 'readline-sync0';
+import rl from 'readline-sync';
 
 let calculadora = rl.questionInt('informe o tipo de operacao: ')
 switch (calculadora) {
     case 1:
-        console.log("Adição")
+        console.log("---Adição---")
+        let x = rl.questionInt('X: 2');
+        let y = rl.questionInt('Y: ');
+        console.log(`Total: ${x + y}`);
         break;
     case 2:
         console.log("Subtração")
@@ -20,11 +23,6 @@ switch (calculadora) {
         console.log("divisão")
         break;
 }
-if (1){
 
-    let x =EntradadeDados.questionInt('X: ');
-    let y =EntradadeDados.questionInt('Y: ');
-    console.log(`Total: ${x+y}`);
-}
 
-    
+
